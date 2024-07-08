@@ -123,9 +123,10 @@ If using MinGW, make sure MinGW's bin directory is in your system's PATH.
 
 Check that all dependencies are correctly installed and configured.
 
-Additional Resources
+# User Control
 
-GLFW
+Once the project is running successfully, you can use the arrow keys to move the bicycle.
 
-Glad
+# Expanding
 
+This project includes various useful functions for drawing circles and lines, which can be utilized to create different bicycles and even other shapes. These functions provide a flexible foundation for expanding and customizing your 2D graphics project.
