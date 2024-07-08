@@ -130,3 +130,5 @@ Once the project is running successfully, you can use the arrow keys to move the
 # Expanding
 
 This project includes various useful functions for drawing circles and lines, which can be utilized to create different bicycles and even other shapes. These functions provide a flexible foundation for expanding and customizing your 2D graphics project.
+
+![output_picture](https://github.com/[Ali-Banihashemi]/[2D-Bicycle-OpenGL]/blob/[main]/bike.png?raw=true)
