@@ -4,7 +4,7 @@ This guide will walk you through setting up this OpenGL project in Visual Studio
 
 ## Prerequisites
 
-Visual Studio Code: Download and install VSCode.
+Visual Studio Code: Download and install [VSCode](https://code.visualstudio.com/download).
 
 MinGW or Visual Studio: A C++ compiler is required. You can use either MinGW or Visual Studio.
 
