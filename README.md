@@ -1,7 +1,8 @@
-Setup on VSCode (Windows)
-This guide will walk you through setting up an OpenGL project in Visual Studio Code (VSCode) on a Windows machine using GLFW3 and Glad.
+# Setup on VSCode (Windows)
 
-Prerequisites
+This guide will walk you through setting up this OpenGL project in Visual Studio Code (VSCode) on a Windows machine using GLFW3 and Glad libraries. You can use the same approach to set up this project on other operating systems; however, using Visual Studio is probably easier for beginners.
+
+## Prerequisites
 Visual Studio Code: Download and install VSCode.
 MinGW or Visual Studio: A C++ compiler is required. You can use either MinGW or Visual Studio.
 CMake: Download and install CMake.
