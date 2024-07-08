@@ -73,9 +73,6 @@ lib (for library files)
 Create a CMakeLists.txt file in your project directory with the following content:
 
 ```
-cmake
-
-Copy code
 cmake_minimum_required(VERSION 3.10)
 project(OpenGLProject)
 
