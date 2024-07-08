@@ -3,44 +3,77 @@
 This guide will walk you through setting up this OpenGL project in Visual Studio Code (VSCode) on a Windows machine using GLFW3 and Glad libraries. You can use the same approach to set up this project on other operating systems; however, using Visual Studio is probably easier for beginners.
 
 ## Prerequisites
+
 Visual Studio Code: Download and install VSCode.
+
 MinGW or Visual Studio: A C++ compiler is required. You can use either MinGW or Visual Studio.
+
 CMake: Download and install CMake.
-Step-by-Step Guide
-1. Install VSCode Extensions
+
+## Step-by-Step Guide
+
+### 1. Install VSCode Extensions
+
 Open VSCode and install the following extensions:
 
 C/C++ by Microsoft
+
 CMake Tools by Microsoft
+
 CMake by twxs
-2. Install MinGW (if using MinGW)
+
+### 2. Install MinGW (if using MinGW)
+
 If you choose to use MinGW as your compiler:
 
 Download MinGW from MinGW-w64.
+
 Install MinGW and add C:\MinGW\bin (or the path where MinGW is installed) to your system's PATH environment variable.
-3. Download and Set Up GLFW
+
+### 3. Download and Set Up GLFW
+
 Download the GLFW binaries from GLFW.
+
 Extract the downloaded files to a convenient location, e.g., C:\glfw.
-4. Download and Set Up Glad
+
+### 4. Download and Set Up Glad
+
 Go to the Glad website.
+
 Choose the following settings:
+
 Language: C/C++
+
 Specification: OpenGL
+
 API: gl version 3.3 or later
+
 Profile: Core
+
 Generate a loader: Yes
+
 Click on "Generate" and download the generated files.
+
 Extract the downloaded files to a convenient location, e.g., C:\glad.
-5. Create Your Project Directory
+
+### 5. Create Your Project Directory
+
 Create a new directory for your project, e.g., C:\OpenGLProject.
+
 Inside this directory, create the following subdirectories:
+
 src (for your source code)
+
 include (for header files)
+
 lib (for library files)
-6. Set Up Your CMakeLists.txt
+
+### 6. Set Up Your CMakeLists.txt
+
 Create a CMakeLists.txt file in your project directory with the following content:
 
 cmake
+
 Copy code
 cmake_minimum_required(VERSION 3.10)
 project(OpenGLProject)
