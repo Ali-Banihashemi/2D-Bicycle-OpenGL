@@ -6,9 +6,9 @@ This guide will walk you through setting up this OpenGL project in Visual Studio
 
 Visual Studio Code: Download and install [VSCode](https://code.visualstudio.com/download).
 
-MinGW or Visual Studio: A C++ compiler is required. You can use either MinGW or Visual Studio.
+MinGW or Visual Studio: A C++ compiler is required. You can use either [MinGW](https://code.visualstudio.com/docs/cpp/config-mingw) or [Visual Studio](https://visualstudio.microsoft.com/downloads/).
 
-CMake: Download and install CMake.
+CMake: Download and install [CMake](https://cmake.org/download/).
 
 ## Step-by-Step Guide
 
@@ -26,19 +26,19 @@ CMake by twxs
 
 If you choose to use MinGW as your compiler:
 
-Download MinGW from MinGW-w64.
+Download MinGW from [MinGW-w64](https://www.mingw-w64.org/downloads/).
 
 Install MinGW and add C:\MinGW\bin (or the path where MinGW is installed) to your system's PATH environment variable.
 
 ### 3. Download and Set Up GLFW
 
-Download the GLFW binaries from GLFW.
+Download the GLFW binaries from [GLFW](https://www.glfw.org/download.html).
 
 Extract the downloaded files to a convenient location, e.g., C:\glfw.
 
 ### 4. Download and Set Up Glad
 
-Go to the Glad website.
+Go to the [Glad website](https://glad.dav1d.de/).
 
 Choose the following settings:
 
