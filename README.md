@@ -1,4 +1,4 @@
-##Setup on VSCode (Windows)
+Setup on VSCode (Windows)
 This guide will walk you through setting up an OpenGL project in Visual Studio Code (VSCode) on a Windows machine using GLFW3 and Glad.
 
 Prerequisites
